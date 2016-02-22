@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+	int liczba;
+	
+	cout << "Podaj liczbe calkowita miedzy 20 a 50:   ";
+	cin >> liczba;
+	
+	if (liczba < 20 )
+	{
+		cout << "\n\nNiestety, liczba " << liczba << " jest za niska!\n\n\n";
+	}
+	
+	else if (liczba > 50)
+	{
+		cout << "\n\nNiestety, liczba " << liczba << " jest za wysoka!\n\n\n";
+	}
+	
+	else 
+	{
+		cout << "\n\nDobrze, liczba " << liczba << " zawiera sie w przedziale miedzy 20 a 50.\n\n\n";
+	}
+	
+	system ("pause");
+	return 0;
+}
